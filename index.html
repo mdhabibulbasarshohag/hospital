@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <!-- google font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lobster&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+    <title>hospital</title>
+</head>
+
+<body>
+    <header>
+
+        <!-- navbar div start --------------------------------------------------------------->
+
+        <section>
+            <div>
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container">
+                        <a class="navbar-brand text-info fw-bold text-lobster fs-1" href="#">MEDICAL</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse ms-lg-5" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-Source-Sans-Pro me-3" aria-current="page"
+                                        href="#">HOME</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-Source-Sans-Pro me-3" href="#"
+                                        id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        PAGES
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-Source-Sans-Pro me-3" href="#"
+                                        id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        DOCTORS
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-Source-Sans-Pro me-3" href="#"
+                                        id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        DEPARTMENTS
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-Source-Sans-Pro me-3" href="#"
+                                        id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        BLOG
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-Source-Sans-Pro me-3" href="#"
+                                        id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        SHOP
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-Source-Sans-Pro" aria-current="page"
+                                        href="#">CONTACT</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <main>
+
+        <!-- carousel div start----------------------------------------------------------------- -->
+
+        <div>
+            <section>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="img/1.jpeg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="d-lg-flex justify-content-lg-start mb-lg-5">
+                                    <div class=" text-start mb-5">
+                                        <div>
+                                            <h5 class="text-primary pb-1">Welcome to our Medical Care Center</h5>
+                                            <h1 class=" fw-bolder pb-3 text-Kdam-Thmor-Pro">
+                                                We Take Care Our <br>
+                                                Patients Health
+                                            </h1>
+                                            <p class="pb-3 text-Source-Sans-Pro">
+                                                I realized that becoming a doctor, I can only help a small community.
+                                                <br>
+                                                But by becoming a doctor, I can help my whole country.
+                                            </p>
+                                        </div>
+                                        <div class="mb-5">
+                                            <a class="btn btn-primary fs-4 me-2" href="">About Us</a>
+                                            <a class="btn btn-primary fs-4 " href="">Our Services</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="img/2.jpeg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="d-lg-flex justify-content-lg-start mb-lg-5">
+                                    <div class=" text-start mb-5">
+                                        <div>
+                                            <h4 class="text-primary pb-1">Welcome to our Medical Care Center</h4>
+                                            <h1 class=" fw-bolder pb-3 text-Kdam-Thmor-Pro">
+                                                We Take Care Our <br>
+                                                Patients Health
+                                            </h1>
+                                            <p class="pb-3 text-Source-Sans-Pro">
+                                                I realized that becoming a doctor, I can only help a small community.
+                                                <br>
+                                                But by becoming a doctor, I can help my whole country.
+                                            </p>
+                                        </div>
+                                        <div class="mb-5">
+                                            <a class="btn btn-primary fs-4 me-2" href="">About Us</a>
+                                            <a class="btn btn-primary fs-4 " href="">Our Services</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </div>
+
+        <!-- card section ----------------------------------------------------------------------- ? -->
+
+        <section class="py-5 px-5">
+            <div class=" container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="card">
+                            <div class="card-body p-5">
+                                <span><i class="fa-solid fa-stethoscope fs-1 text-primary pb-4"></i></span>
+                                <h4 class="card-title">Quality & Safety</h4>
+                                <p class="card-text">Our Delmont hospital utilizes state of the
+                                    art technology and employs a team of
+                                    true experts.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="card">
+                            <div class="card-body p-5">
+                                <span><i class="fa-solid fa-heart-pulse fs-1 text-primary pb-4"></i></span>
+                                <h4 class="card-title">Leading Technology</h4>
+                                <p class="card-text">Our Delmont hospital utilizes state of the
+                                    art technology and employs a team of
+                                    true experts.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="card">
+                            <div class="card-body p-5">
+                                <span><i class="fa-solid fa-user-doctor fs-1 text-primary pb-4"></i></span>
+                                <h4 class="card-title">Experts by Experience</h4>
+                                <p class="card-text">Our Delmont hospital utilizes state of the
+                                    art technology and employs a team of
+                                    true experts.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- banner section -------------------------------------------------------------------------? -->
+
+        <section>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <img class="img-fluid" src="img/image-1.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div>
+                            <h5 class="pb-2">
+                                OUR MEDICAL
+                            </h5>
+                            <h1 class="text-Kdam-Thmor-Pro">
+                                We're setting Standards in Research
+                                what's more, Clinical Care.
+                            </h1>
+                            <span>
+                                <i class="fa-solid fa-heart-pulse text-primary fs-1 py-3"></i>
+                            </span>
+                            <p class="text-Source-Sans-Pro">
+                                We provide the most full medical services, so every person could have the
+                                pportunity o receive qualitative medical help.
+                            </p>
+                            <p class="text-Source-Sans-Pro">
+                                Our Clinic has grown to provide a world class facility for the treatment of tooth
+                                loss. dental cosmetics and bore advanced restorative dentistry. We are among
+                                the most qualified implant providers in the AUS with over 30 years of uality
+                                training and experience.
+                            </p>
+
+                            <a class="btn btn-primary fs-4" href="">More About</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- OUR SERVICES section?-------------------------------------------------------------- -->
+
+        <section class="" style="background-color: #f5f5f5;">
+            <div class="container py-5 px-5 mt-5">
+                <div class="d-flex justify-content-center align-items-center flex-column py-5">
+                    <h4>OUR SERVICES</h4>
+                    <h2>
+                        We Care Our Patients.
+                    </h2>
+                    <span><i class="fa-solid fa-heart-pulse text-primary fs-1"></i></span>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <div class="card">
+                                <div class="card-body p-5 text-center">
+                                    <span>
+                                        <i style="background-color: #f5f5f5;"
+                                            class="fa-solid fa-stethoscope fs-1 text-primary p-4 mb-3 rounded-circle"></i>
+                                    </span>
+                                    <h4 class="card-title">Quality & Safety</h4>
+                                    <p class="card-text">Our Delmont hospital utilizes state of the
+                                        art technology and employs a team of
+                                        true experts.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="card">
+                                <div class="card-body p-5 text-center">
+                                    <span>
+                                        <i style="background-color: #f5f5f5;"
+                                            class="fa-solid fa-stethoscope fs-1 text-primary p-4 mb-3 rounded-circle"></i>
+                                    </span>
+                                    <h4 class="card-title">Quality & Safety</h4>
+                                    <p class="card-text">Our Delmont hospital utilizes state of the
+                                        art technology and employs a team of
+                                        true experts.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="card">
+                                <div class="card-body p-5 text-center">
+                                    <span>
+                                        <i style="background-color: #f5f5f5;"
+                                            class="fa-solid fa-stethoscope fs-1 text-primary p-4 mb-3 rounded-circle"></i>
+                                    </span>
+                                    <h4 class="card-title">Quality & Safety</h4>
+                                    <p class="card-text">Our Delmont hospital utilizes state of the
+                                        art technology and employs a team of
+                                        true experts.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="card">
+                                <div class="card-body p-5 text-center">
+                                    <span>
+                                        <i style="background-color: #f5f5f5;"
+                                            class="fa-solid fa-stethoscope fs-1 text-primary p-4 mb-3 rounded-circle"></i>
+                                    </span>
+                                    <h4 class="card-title">Quality & Safety</h4>
+                                    <p class="card-text">Our Delmont hospital utilizes state of the
+                                        art technology and employs a team of
+                                        true experts.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="card">
+                                <div class="card-body p-5 text-center">
+                                    <span>
+                                        <i style="background-color: #f5f5f5;"
+                                            class="fa-solid fa-stethoscope fs-1 text-primary p-4 mb-3 rounded-circle"></i>
+                                    </span>
+                                    <h4 class="card-title">Quality & Safety</h4>
+                                    <p class="card-text">Our Delmont hospital utilizes state of the
+                                        art technology and employs a team of
+                                        true experts.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="card">
+                                <div class="card-body p-5 text-center">
+                                    <span>
+                                        <i style="background-color: #f5f5f5;"
+                                            class="fa-solid fa-stethoscope fs-1 text-primary p-4 mb-3 rounded-circle"></i>
+                                    </span>
+                                    <h4 class="card-title">Quality & Safety</h4>
+                                    <p class="card-text">Our Delmont hospital utilizes state of the
+                                        art technology and employs a team of
+                                        true experts.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer></footer>
+    <!-- script link  start? -->
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome link js -->
+    <script src="https://kit.fontawesome.com/3ac592b609.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

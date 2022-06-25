@@ -1,0 +1,21 @@
+ /* google font style */
+
+ .text-lobster {
+     font-family: 'Lobster', cursive;
+ }
+
+ .text-Source-Sans-Pro {
+     font-family: 'Source Sans Pro', sans-serif;
+ }
+
+ .text-Kdam-Thmor-Pro {
+     font-family: 'Kdam Thmor Pro', sans-serif;
+ }
+
+
+
+ /* carousel css height */
+
+ .carousel-height {
+     height: 600px;
+ }
